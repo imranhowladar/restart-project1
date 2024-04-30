@@ -21,6 +21,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 nav > ul{
     display: flex;
@@ -39,4 +40,17 @@ nav a{
     font-size: 45px;
     font-weight: 800;
 }
+/* header style */
+.header{
+    background: rgb(255, 248, 243);
+}
 
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-pic{
+    width: 500px;
+}
