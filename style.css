@@ -1,11 +1,13 @@
 /* common shared style */
 body {
-  font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
-.text-primary{
+
+.text-primary {
     color: rgb(253, 110, 10);
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: rgb(253, 110, 10);
     border: 0;
@@ -15,42 +17,99 @@ body {
     padding: 18px 36px;
 }
 
+.section-title {
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-description {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
 
 /* nav styles */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: rgb(71, 71, 71);
 }
-.nav-title{
+
+.nav-title {
     color: rgb(24, 24, 24);
     font-size: 45px;
     font-weight: 800;
 }
+
 /* header style */
-.header{
+.header {
     background: rgb(255, 248, 243);
+    background-image: url(/portfolio-resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
-.banner{
-    padding: 30px 30px 30px 150px;
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.profile-pic{
+
+.banner-content {
+    max-width: 500px;
+}
+
+.profile-pic {
     width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    font-weight: 600;
+    color: rgb(71, 71, 71);
+    margin-bottom: 0px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    margin-top: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+}
+
+/* main section styles */
+/* about section */
+.about{
+    margin-top: 130px;
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
 }
