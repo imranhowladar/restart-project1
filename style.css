@@ -197,3 +197,8 @@ main {
     text-align: center;
     margin: 50px;
 }
+footer{
+    display: flex;
+    background: rgb(255, 248, 243);
+    padding: 230px 100px;
+}
